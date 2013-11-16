@@ -1,6 +1,7 @@
 package Ismael;
 
 
+import java.io.File;
 import javax.swing.table.DefaultTableModel;
 import java.sql.*;
 import java.text.SimpleDateFormat;
@@ -22,6 +23,7 @@ public class Pedidos extends javax.swing.JFrame {
     String ID_Editar = "";
     ///home/henrygbc/NetBeansProjects/Ismaels/
     //C:/Users/Ususario/Desktop/Ismaels
+    
     String Ruta = "/home/henrygbc/NetBeansProjects/Ismaels/";
     /**
      * Creates new form Pedidos
@@ -67,7 +69,7 @@ public class Pedidos extends javax.swing.JFrame {
         jtxFecha1.setVisible(false);
         jtxFecha2.setVisible(false);
         totalDePrecios();
-        
+       
         
         
     }
