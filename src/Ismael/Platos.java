@@ -17,7 +17,7 @@ import javax.swing.table.DefaultTableModel;
 public class Platos extends javax.swing.JFrame {
     DefaultTableModel modelo;
     String ID_Editar = "";
-    String Ruta = "/home/henrygbc/NetBeansProjects/Ismaels/";
+    String Ruta = "C:/Users/Carolina/Ismaels/";
     /**
      * Creates new form Platos
      */

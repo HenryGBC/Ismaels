@@ -24,13 +24,13 @@ public class Pedidos extends javax.swing.JFrame {
     ///home/henrygbc/NetBeansProjects/Ismaels/
     //C:/Users/Ususario/Desktop/Ismaels
     
-    String Ruta = "/home/henrygbc/NetBeansProjects/Ismaels/";
+    String Ruta = "C:/Users/Carolina/Ismaels/";
     /**
      * Creates new form Pedidos
      */
     public Pedidos() {
         initComponents();
-        setLocation(380,250);
+        setLocation(380,100);
         setSize(900, 600);
         jcbClientes.addItem("Clientes");
         jcbPlatos.addItem("Platos");
